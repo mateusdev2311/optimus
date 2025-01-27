@@ -1,0 +1,39 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    border-bottom: 1px solid #976565;
+}
+
+.texto1{
+    font-size: 16px;
+    font-weight: bold;
+    color: #8E2424;
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    top: 200px;
+
+}
+
+.texto2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #101828;
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    top: 200px;
+}
+
+.texto3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #667085;
+    display: flex;
+    position: absolute;
+    justify-content:center;
+    top: 320px;
+}
