@@ -1,58 +1,63 @@
 .job-opportunities {
+    width: 1000px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #FFF;
     border-radius: 8px;
     margin: 20px 0;
+    text-align: center; /* Centraliza o conteúdo geral */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 15%;
+    border-bottom: 1px solid #4e5c79;
+
 }
 
 .job-opportunities h2 {
-    text-align: center;
     color: #333;
     margin-bottom: 20px;
 }
 
 .job-category {
     margin-bottom: 30px;
+    width: 200px;
+    display: flex;
+    position: relative;
+    left: 5% ;
 }
 
 .job-category h3 {
     color: #555;
     margin-bottom: 15px;
+    
 }
 
 .job {
     background-color: #fff;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 16px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 768px;
-    height: 136px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    
-    
+    text-align: left; /* Alinha o conteúdo do job à esquerda */
+    width: 800px;
+
 }
 
 .job h4 {
     color: #222;
+    text-align: center; /* Centraliza o nome do cargo */
     margin-bottom: 10px;
-    font-size: 18px;
-    text-align: justify;
-    
 }
 
-.job p {
+.job-details {
+    text-align: left; /* Alinha os detalhes à esquerda */
+}
+
+.job-details p {
     color: #666;
-    margin: 40px ;
-    top: 80px;
-
-       
+    margin: 5px 0; /* Espaçamento entre os parágrafos */
 }
+
 .job:hover{
     cursor: pointer;
-
-    
 }
-
