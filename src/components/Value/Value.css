@@ -1,0 +1,92 @@
+.value {
+    display: flex;
+    justify-content: space-around; /* Distribui os itens uniformemente */
+    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
+    border-bottom: 1px solid #c43b3b;
+
+    height: 288px;
+
+}
+
+ .map {
+    display: flex;
+    flex-direction: column; /* Coloca o h2 e h3 em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin: 10px; /* Adiciona margem entre os itens */
+    position: relative;
+    top: 20px;
+    left: 70px;
+}
+
+.value h2, .value h3, .value  {
+    margin: 0; /* Remove margens padrão */
+}
+
+.text1{
+    font-size: 15px;
+    position: absolute ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 90px;
+    left: -1180px;
+    gap: 50px;
+    margin: 0 ;
+    text-align: justify;
+    color: #667085;
+
+}
+.text2{
+    font-size: 15px;
+    position: absolute ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 90px;
+    left: -880px;
+    gap: 50px;
+    margin: 0 ;
+    text-align: justify;
+    color: #667085;
+
+}
+.text3{
+    font-size: 15px;
+    position: absolute ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 90px;
+    left: -600px;
+    gap: 50px;
+    margin: 0 ;
+    text-align: justify;
+    color: #667085;
+
+}
+.text4{
+    font-size: 15px;
+    position: absolute ;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    top: 90px;
+    left: -350px;
+    gap: 50px;
+    margin: 0 ;
+    text-align: justify;
+    color: #667085;
+
+}
+
+.numero{
+    color: #8E2424;
+    font-size: 40px;
+}
+
+.sub{
+    font-size: 15px;
+    text-align: justify;
+}
+
+
